@@ -7,13 +7,6 @@
   --color-red: #BD2026;
 }
 
-/* ---------@ MAIN ---------- */
-
-main {
-  margin: 30PX 50px;
-}
-
-/* ---------- MAIN ---------- */
 /* ---------- HEADER ---------- */
 
 /* ESTILIZAÇÃO QUE SERÁ APLICADA A TODO CONTEÚDO VISÍVEL DA PÁGINA */
@@ -22,6 +15,7 @@ body {
   font-size: 1rem;
 }
 
+/* CABEÇALKHO */
 header {
   background-color: var(--color-red);
   padding: 20px 0;
@@ -29,10 +23,17 @@ header {
   justify-content: center;
 }
 
-.title {
-color: var(--color-white);
+.main__title {
+  color: var(--color-white);
 }
 
 /* ---------- HEADER ---------- */
+/* ---------@ MAIN ---------- */
+
+main {
+  margin: 30PX 50px;
+}
+
+/* ---------- MAIN ---------- */
 
 
