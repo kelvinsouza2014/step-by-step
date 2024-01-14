@@ -1,13 +1,16 @@
+/* APLICAR A FORMATAÇÃO EM TODOS OS ELEMENTOS DA PÁGINA HTML */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* APLICAR FORMATAÇÃO EM TODO O BODY DA PÁGINA (conteúdo vísivel da página) */
 body {
 	line-height: 1;
 }
 
+/* APLICAR FORMATAÇÃO NAS LISTAS DA PÁGINA */
 ol, ul {
 	list-style: none;
 }
