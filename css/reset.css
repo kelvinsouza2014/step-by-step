@@ -1,16 +1,27 @@
 /* APLICAR A FORMATAÇÃO EM TODOS OS ELEMENTOS DA PÁGINA HTML */
 * {
+  /* MARGEM EXTERNA */
   margin: 0;
+  /* PREENCHIMENTO INTERNO */
   padding: 0;
+  /* NÃO SOMAR OS PREENCHIMENTOS AO TAMANHO DO ELEMENTO */
   box-sizing: border-box;
+  /* TAMANHO DA FONTE SEM PRÉ-FORMATAÇÃO */
+  font-size: 100%;
+  /* FONTE SEM PRÉ-FORMATAÇÃO */
+	font: inherit;
+  /* ALINHAR VERTICALMENTE AO SEU ELEMENTO PAI (ponto invisível de início de uma linha) */
+	vertical-align: baseline;
 }
 
 /* APLICAR FORMATAÇÃO EM TODO O BODY DA PÁGINA (conteúdo vísivel da página) */
 body {
+  /* ALTURA ENTRE LINHAS */
 	line-height: 1;
 }
 
 /* APLICAR FORMATAÇÃO NAS LISTAS DA PÁGINA */
 ol, ul {
+  /* SIMBOLO DE LISTA */
 	list-style: none;
 }
