@@ -4,7 +4,7 @@
 - [X] Textos
 - [X] Imagens
 - [X] Hiperlinks
-- [X] Tabela
+- [] Tabela
 - [] Fontes de Awesome
 - [] Favicon
 
