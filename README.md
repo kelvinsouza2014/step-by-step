@@ -5,10 +5,12 @@
 - [X] Imagens
 - [X] Hiperlinks
 - [X] Tabela
-- [] 
+- [] Fontes de Awesome
+- [] Favicon
 
 - [X] CSS externo
-- [] Formatação de textos
-- [] Formatação de imagens
-- [] Formatação de posiocionamentos
-- [] Reset de CSS
+- [X] Formatação de textos
+- [X] Formatação de imagens
+- [X] Formatação de posiocionamentos
+- [X] Reset de CSS
+- [X] :root
