@@ -1,8 +1,25 @@
 /* IMPORTAÇÃO DE FONTES EXTERNAS */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
+/* DEFINIÇÃO DE :ROOT (variáveis globais) */
+:root {
+  --color-white: #FFF;
+  --color-red: #BD2026;
+}
+
 /* ESTILIZAÇÃO QUE SERÁ APLICADA A TODO CONTEÚDO VISÍVEL DA PÁGINA */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
+}
+
+header {
+  background-color: var(--color-red);
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main__title {
+color: var(--color-white);
 }
