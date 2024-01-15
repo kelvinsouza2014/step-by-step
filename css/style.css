@@ -39,7 +39,14 @@ main {
   margin: 30PX auto;
 }
 
+.container__article {
+  width: 940px;
+  margin: 0 auto;
+}
+
 .title {
+  font-size: 1.5rem;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -50,7 +57,7 @@ main {
 }
 
 .description {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--color-light-grey-01);
   margin-bottom: 30px;
 }
