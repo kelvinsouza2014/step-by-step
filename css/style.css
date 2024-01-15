@@ -3,8 +3,10 @@
 
 /* DEFINIÇÃO DE :ROOT (variáveis globais) */
 :root {
-  --color-white: #FFF;
+  --color-white: #FFFFFF;
   --color-red: #BD2026;
+  --color-light-grey-01: #464444;
+  --color-light-grey-00: #d1d1d1;
 }
 
 /* ---------- HEADER ---------- */
@@ -31,7 +33,38 @@ header {
 /* ---------@ MAIN ---------- */
 
 main {
-  margin: 30PX 50px;
+  /* width: 940px; */
+  margin: 30PX auto;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.box__article {
+  display: flex;
+  width: 840px;
+  margin-bottom: 80px;
+}
+
+.description {
+  font-size: 0.8rem;
+  color: var(--color-light-grey-01);
+  margin-bottom: 30px;
+}
+
+.article__image {
+  width: 300px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.article__description {
+
+}
+
+.container__table {
+  background-color: var(--color-light-grey-00);
 }
 
 /* ---------- MAIN ---------- */
