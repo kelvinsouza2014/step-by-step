@@ -19,10 +19,12 @@ body {
 
 /* CABEÇALHO */
 header {
-  background-color: var(--color-red);
+  font-size: 2rem;
+  font-weight: 900;
   padding: 20px 0;
   display: flex;
   justify-content: center;
+  background-color: var(--color-red);
 }
 
 .main__title {
