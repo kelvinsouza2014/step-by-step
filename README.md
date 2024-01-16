@@ -7,6 +7,7 @@
 - [X] Tabela
 - [] Fontes de Awesome
 - [] Favicon
+- [] Rodapé
 
 - [X] CSS externo
 - [X] Formatação de textos
