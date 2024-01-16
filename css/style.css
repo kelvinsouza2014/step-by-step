@@ -116,12 +116,26 @@ thead {
   background-color: var(--color-red);
 }
 
+tbody a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
 .table__title {
   margin-bottom: 30px;
 }
 
 th, td {
   padding: 15px;
+}
+
+.hiperlink__style {
+  color: var(--color-red);
+  text-decoration: none;
+}
+
+.hiperlink__style:hover {
+  text-decoration: underline;
 }
 
 /* ---------- MAIN ---------- */
