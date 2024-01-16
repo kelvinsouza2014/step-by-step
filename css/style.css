@@ -125,5 +125,17 @@ th, td {
 }
 
 /* ---------- MAIN ---------- */
+/* ---------- FOOTER ---------- */
 
+footer {
+  margin: 30px 0;
+  padding: 15px 0;
+  color: var(--color-white);
+  background-color: var(--color-light-grey-02);
+}
 
+.copyright__messege {
+  text-align: center;
+}
+
+/* ---------- FOOTER ---------- */
