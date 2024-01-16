@@ -4,9 +4,11 @@
 /* DEFINIÇÃO DE :ROOT (variáveis globais) */
 :root {
   --color-white: #FFFFFF;
+  --color-black: #000000e0;
   --color-red: #BD2026;
-  --color-light-grey-01: #464444;
-  --color-light-grey-00: #d1d1d1;
+  --color-light-grey-02: #464444;
+  --color-light-grey-01: #d1d1d1;
+  --color-light-grey-00: #dad9d9c9;
 }
 
 /* ---------- HEADER ---------- */
@@ -34,7 +36,7 @@ header {
 /* ---------- HEADER ---------- */
 /* ---------@ MAIN ---------- */
 
-main {
+main, .container__table {
   /* width: 940px; */
   margin: 30PX auto;
 }
@@ -44,7 +46,7 @@ main {
   margin: 0 auto;
 }
 
-.title {
+.title, .table__title {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 10px;
@@ -58,7 +60,7 @@ main {
 
 .description {
   font-size: 0.9rem;
-  color: var(--color-light-grey-01);
+  color: var(--color-light-grey-02);
   margin-bottom: 30px;
 }
 
@@ -73,7 +75,53 @@ main {
 }
 
 .container__table {
-  background-color: var(--color-light-grey-00);
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  width: 1400px;
+}
+
+/* table, th, td {
+  border: 1px solid var(--color-black);
+}*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, thead th {
+  border: 2px solid var(--color-black);
+}
+
+.box__table {
+  /* background-color: var(--color-light-grey-01); */
+}
+
+.box__table tr:nth-child(even) {
+  background-color: #fbcad6a4;
+}
+
+.box__table tr:hover {
+  border: 2px solid var(--color-light-grey-02);
+}
+
+.td__table {
+  text-align: center;
+  border-left: 1px solid var(--color-light-grey-01);
+}
+
+thead {
+  color: var(--color-white);
+  background-color: var(--color-red);
+}
+
+.table__title {
+  margin-bottom: 30px;
+}
+
+th, td {
+  padding: 15px;
 }
 
 /* ---------- MAIN ---------- */
